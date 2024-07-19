@@ -21,4 +21,16 @@ export class EstudiantesService {
     estudiante.id = this.estudiantes.length + 1; // Se asigna un id al estudiante.
     this.estudiantes.push(estudiante);
   }
+  eliminaEstudiante(id: number): void {
+    for (let i = 0; this.estudiantes.length; i++) {
+      if (this.estudiantes[i].id === id) {
+        this.estudiantes.splice(i - 1, 1);
+      }
+    }
+  }
+  editarEstudiante(id: number, estudiante: estudiante): void {
+    let estudianteUPD: estudiante = this.obtenerEstudiantesPorId(id);
+    estudianteUPD.nombre = estudiante.nombre;
+    estudianteUPD.profesion = estudiante.profesion;
+  }
 } // fin de la clase

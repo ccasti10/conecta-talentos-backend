@@ -1,4 +1,12 @@
-import { Body, Post, Controller, Get, Param } from '@nestjs/common';
+import {
+  Body,
+  Post,
+  Controller,
+  Get,
+  Param,
+  Delete,
+  Put,
+} from '@nestjs/common';
 import { estudiante } from './estudiantes';
 import { EstudiantesService } from './estudiantes.service';
 
@@ -21,5 +29,16 @@ export class EstudiantesController {
   @Post('')
   nuevoEstudiante(@Body() estudiante: estudiante): void {
     return this.servicio.nuevoEstudiante(estudiante);
+  }
+  @Delete(':id')
+  eliminaEstudiante(@Param('id') id: number): void {
+    return this.servicio.eliminaEstudiante(id);
+  }
+  @Put(':id')
+  editarEstudiante(
+    @Param('id') id: number,
+    @Body() estudiante: estudiante,
+  ): void {
+    return this.servicio.editarEstudiante(id, estudiante);
   }
 }
