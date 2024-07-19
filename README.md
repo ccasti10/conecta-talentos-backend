@@ -76,10 +76,10 @@ Nest is [MIT licensed](LICENSE).
 ## Ejercicio 📌
 
 ## Actividades:
-✅ - Crea un nuevo proyecto utilizando nestjs llamado “conecta-talentos-backend”
-✅ - Crea un nuevo repositorio en github llamado “conecta-talentos-backend”
-✅ - Sincroniza tu repositorio local con el repositorio de github
-✅ - Identifica las clases necesarias según el escenario planteado y por cada clase define los atributos especificando el tipo de dato necesario.
+✅ - Crea un nuevo proyecto utilizando nestjs llamado “conecta-talentos-backend” </br>
+✅ - Crea un nuevo repositorio en github llamado “conecta-talentos-backend” </br>
+✅ - Sincroniza tu repositorio local con el repositorio de github</br>
+✅ - Identifica las clases necesarias según el escenario planteado y por cada clase define los atributos especificando el tipo de dato necesario. </br>
 ✅ - Identifica cuales son las relaciones entre los objetos
 ✅ - Crea las siguientes clases y sus relaciones
       Estudiante
