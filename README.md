@@ -82,42 +82,48 @@ Nest is [MIT licensed](LICENSE).
 ✅ - Identifica las clases necesarias según el escenario planteado y por cada clase define los atributos especificando el tipo de dato necesario. </br>
 ✅ - Identifica cuales son las relaciones entre los objetos </br>
 ✅ - Crea las siguientes clases y sus relaciones </br>
-      Estudiante </br>
-      Empresa </br>
-      Oferta Laboral </br>
-      Postulación </br>
-✅ Haz un commit con el mensaje “Modelo creado” y luego haz un push al repositorio de github. </br>
+     * Estudiante </br>
+     * Empresa </br>
+     * Oferta Laboral </br>
+     * Postulación </br>
+✅ - Haz un commit con el mensaje “Modelo creado” y luego haz un push al repositorio de github. </br>
 ✅ Crea el controlador para Estudiantes que permita realizar las siguientes acciones </br>
-    Registrar un nuevo estudiante </br>
-    Obtener un estudiante según su id </br>
-    Obtener todos los estudiantes </br>
-    Eliminar un estudiante según su id </br>
+     * Registrar un nuevo estudiante </br>
+     * Obtener un estudiante según su id </br>
+     * Obtener todos los estudiantes </br>
+     * Eliminar un estudiante según su id </br>
 
-🚩Crea un servicio para almacenar los datos de los estudiantes y que permita dar soporte a las acciones que maneja el controlador de estudiante </br>
-Registrar un nuevo estudiante (Verificar si existe el estudiante según el correo ingresado) </br>
-Obtener un estudiante según su id </br>
-Obtener todos los estudiantes </br>
-Eliminar un estudiante según su id </br>
-Haz un commit con el mensaje “Módulo de estudiantes” y luego haz un push al repositorio de github. </br>
- Crea el controlador para Empresas que permita realizar las siguientes acciones </br>
-Registrar una nueva empresa </br>
-Obtener una empresa según su id </br>
-Obtener todas las empresas </br>
-Eliminar una empresa según su id </br>
-Crea un servicio para almacenar los datos de las empresas y que permita dar soporte a las acciones que maneja el controlador de empresa </br>
-Registrar una nueva empresa (Verificar si existe la empresa según el nombre ) </br>
-Obtener una empresa según su id </br>
-Obtener todas las empresas </br>
-Eliminar una empresa según su id </br>
-Haz un commit con el mensaje “Módulo de empresas” y luego haz un push al repositorio de github. </br>
-Crea el controlador para Oferta laboral que permita realizar las siguientes acciones </br>
-Crear una nueva oferta laboral </br>
-Obtener una oferta laboral según su id </br>
-Obtener todas las ofertas laborales, debe ser posible filtrar las ofertas por una empresa en particular y por su estado. </br>
-Eliminar una oferta laboral según su id </br>
-Crea un servicio para almacenar los datos de las ofertas laborales y que permita dar soporte a las acciones que maneja el controlador de ofertas laborales </br>
-Crear una nueva oferta laboral </br>
-Obtener una oferta laboral según su id </br>
-Obtener todas las ofertas laborales, debe ser posible filtrar las ofertas por una empresa en particular y por su estado. </br>
-Eliminar una oferta laboral según su id </br>
-Haz un commit con el mensaje “Módulo de Ofertas laborales” y luego haz un push al repositorio de github. </br>
+🚩- Crea un servicio para almacenar los datos de los estudiantes y que permita dar soporte a las acciones que maneja el controlador de estudiante </br>
+- Registrar un nuevo estudiante (Verificar si existe el estudiante según el correo ingresado) </br>
+- Obtener un estudiante según su id </br>
+- Obtener todos los estudiantes </br>
+- Eliminar un estudiante según su id </br>
+- Haz un commit con el mensaje “Módulo de estudiantes” y luego haz un push al repositorio de github. </br>
+</br>
+</br>
+- Crea el controlador para Empresas que permita realizar las siguientes acciones </br>
+- Registrar una nueva empresa </br>
+- Obtener una empresa según su id </br>
+- Obtener todas las empresas </br>
+- Eliminar una empresa según su id </br>
+</br>
+</br>
+- Crea un servicio para almacenar los datos de las empresas y que permita dar soporte a las acciones que maneja el controlador de empresa </br>
+- Registrar una nueva empresa (Verificar si existe la empresa según el nombre ) </br>
+- Obtener una empresa según su id </br>
+- Obtener todas las empresas </br>
+- Eliminar una empresa según su id </br>
+- Haz un commit con el mensaje “Módulo de empresas” y luego haz un push al repositorio de github. </br>
+</br>
+</br>
+- Crea el controlador para Oferta laboral que permita realizar las siguientes acciones </br>
+- Crear una nueva oferta laboral </br>
+- Obtener una oferta laboral según su id </br>
+- Obtener todas las ofertas laborales, debe ser posible filtrar las ofertas por una empresa en particular y por su estado. </br>
+- Eliminar una oferta laboral según su id </br>
+- Crea un servicio para almacenar los datos de las ofertas laborales y que permita dar soporte a las acciones que maneja el controlador de ofertas laborales </br>
+- Crear una nueva oferta laboral </br>
+- Obtener una oferta laboral según su id </br>
+- Obtener todas las ofertas laborales, debe ser posible filtrar las ofertas por una empresa en particular y por su estado. </br>
+- Eliminar una oferta laboral según su id </br>
+- Haz un commit con el mensaje “Módulo de Ofertas laborales” y luego haz un push al repositorio de github. </br>
