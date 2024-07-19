@@ -1,4 +1,4 @@
-export class Empresas {
+export class Empresa {
   constructor(
     public idEmpresa: number,
     public nombre: string,

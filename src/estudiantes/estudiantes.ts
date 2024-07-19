@@ -1,4 +1,4 @@
-export class Estudiantes {
+export class estudiante {
   constructor(
     public id: number,
     public nombre: string,
