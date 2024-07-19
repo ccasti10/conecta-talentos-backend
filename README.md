@@ -75,7 +75,7 @@ Nest is [MIT licensed](LICENSE).
 
 ## Ejercicio 📌
 
-Actividades:
+## Actividades:
 ✅ - Crea un nuevo proyecto utilizando nestjs llamado “conecta-talentos-backend”
 ✅ - Crea un nuevo repositorio en github llamado “conecta-talentos-backend”
 ✅ - Sincroniza tu repositorio local con el repositorio de github
@@ -87,13 +87,13 @@ Actividades:
       Oferta Laboral
       Postulación
 ✅ Haz un commit con el mensaje “Modelo creado” y luego haz un push al repositorio de github.
-🚩 Crea el controlador para Estudiantes que permita realizar las siguientes acciones
+✅ Crea el controlador para Estudiantes que permita realizar las siguientes acciones
     Registrar un nuevo estudiante
     Obtener un estudiante según su id
     Obtener todos los estudiantes
     Eliminar un estudiante según su id
-    
-Crea un servicio para almacenar los datos de los estudiantes y que permita dar soporte a las acciones que maneja el controlador de estudiante
+
+🚩Crea un servicio para almacenar los datos de los estudiantes y que permita dar soporte a las acciones que maneja el controlador de estudiante
 Registrar un nuevo estudiante (Verificar si existe el estudiante según el correo ingresado)
 Obtener un estudiante según su id
 Obtener todos los estudiantes
