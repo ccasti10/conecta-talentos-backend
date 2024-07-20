@@ -12,7 +12,6 @@ import { EstudiantesService } from './estudiantes.service';
 
 @Controller('estudiantes')
 export class EstudiantesController {
-  //Obtiene todos los estudiantes
   constructor(private readonly servicio: EstudiantesService) {}
 
   //Obtiene todos los estudiantes
