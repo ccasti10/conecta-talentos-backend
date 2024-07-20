@@ -94,19 +94,16 @@ Nest is [MIT licensed](LICENSE).
      * Eliminar un estudiante según su id </br>
 
 🚩- Crea un servicio para almacenar los datos de los estudiantes y que permita dar soporte a las acciones que maneja el controlador de estudiante </br>
-- Registrar un nuevo estudiante (Verificar si existe el estudiante según el correo ingresado) </br>
-- Obtener un estudiante según su id </br>
-- Obtener todos los estudiantes </br>
-- Eliminar un estudiante según su id </br>
-- Haz un commit con el mensaje “Módulo de estudiantes” y luego haz un push al repositorio de github. </br>
-</br>
-</br>
+    * Registrar un nuevo estudiante (Verificar si existe el estudiante según el correo ingresado) </br>
+    * Obtener un estudiante según su id </br>
+    * Obtener todos los estudiantes </br>
+    * Eliminar un estudiante según su id </br>
+    * Haz un commit con el mensaje “Módulo de estudiantes” y luego haz un push al repositorio de github. </br>
 - Crea el controlador para Empresas que permita realizar las siguientes acciones </br>
 - Registrar una nueva empresa </br>
 - Obtener una empresa según su id </br>
 - Obtener todas las empresas </br>
 - Eliminar una empresa según su id </br>
-</br>
 </br>
 - Crea un servicio para almacenar los datos de las empresas y que permita dar soporte a las acciones que maneja el controlador de empresa </br>
 - Registrar una nueva empresa (Verificar si existe la empresa según el nombre ) </br>
@@ -114,7 +111,6 @@ Nest is [MIT licensed](LICENSE).
 - Obtener todas las empresas </br>
 - Eliminar una empresa según su id </br>
 - Haz un commit con el mensaje “Módulo de empresas” y luego haz un push al repositorio de github. </br>
-</br>
 </br>
 - Crea el controlador para Oferta laboral que permita realizar las siguientes acciones </br>
 - Crear una nueva oferta laboral </br>

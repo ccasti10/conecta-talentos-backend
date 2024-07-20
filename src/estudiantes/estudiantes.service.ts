@@ -10,21 +10,21 @@ export class EstudiantesService {
   }
 
   obtenerEstudiantesPorId(id: number): estudiante {
-    // Se busca el estudiante por el id recibido.
     for (let i = 0; i < this.estudiantes.length; i++) {
-      if (this.estudiantes[i].id === id) {
+      if (this.estudiantes[i].id == id) {
         return this.estudiantes[i];
       }
     }
+    return null; // Return null if no matching student is found
   }
   nuevoEstudiante(estudiante: estudiante): void {
     estudiante.id = this.estudiantes.length + 1; // Se asigna un id al estudiante.
     this.estudiantes.push(estudiante);
   }
   eliminaEstudiante(id: number): void {
-    for (let i = 0; this.estudiantes.length; i++) {
-      if (this.estudiantes[i].id === id) {
-        this.estudiantes.splice(i - 1, 1);
+    for (let i = 0; i < this.estudiantes.length; i++) {
+      if (this.estudiantes[i].id == id) {
+        this.estudiantes.splice(i, 1);
       }
     }
   }

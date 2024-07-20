@@ -21,9 +21,9 @@ export class EstudiantesController {
     return this.servicio.obtenerEstudiantes();
   }
   //Obtiene estudiante por id
-  @Get(':idestudiante')
-  obtenerEstudiantesPorId(@Param('idestudiante') idest: number): estudiante {
-    return this.servicio.obtenerEstudiantesPorId(idest);
+  @Get(':id')
+  obtenerEstudiantesPorId(@Param('id') id: number): estudiante {
+    return this.servicio.obtenerEstudiantesPorId(id);
   }
   //Crea un Estudiante
   @Post('')
