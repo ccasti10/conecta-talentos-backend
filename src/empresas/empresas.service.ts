@@ -17,6 +17,12 @@ export class EmpresasService {
     }
   }
   nuevaEmpresa(empresa: Empresa): void {
+    for (let i = 0; i < this.empresas.length; i++) {
+      if (this.empresas[i].nombre == empresa.nombre) {
+        console.log('La empresa ya existe');
+        return;
+      }
+    }
     empresa.idEmpresa = this.empresas.length + 1; // Se asigna un id a la empresa.
     this.empresas.push(empresa);
   }
