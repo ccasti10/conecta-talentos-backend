@@ -1,5 +1,6 @@
 import {
   Body,
+  Query,
   Post,
   Controller,
   Get,
@@ -39,5 +40,10 @@ export class EstudiantesController {
     @Body() estudiante: estudiante,
   ): void {
     return this.servicio.editarEstudiante(id, estudiante);
+  }
+  //Query Params para seleccionar el nombre del estudiante
+  @Get('filtroEstudiantes') getEstudiantes(@Query('nombre') nombre: string): estudiante[] {
+    console.log('parametro nombre:', nombre);
+    return this.servicio.getEstudiantes(nombre);
   }
 }

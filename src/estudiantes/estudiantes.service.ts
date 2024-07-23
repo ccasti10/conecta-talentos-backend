@@ -33,4 +33,15 @@ export class EstudiantesService {
     estudianteUPD.nombre = estudiante.nombre;
     estudianteUPD.profesion = estudiante.profesion;
   }
+  getEstudiantes(nombre: string): estudiante[] {
+    console.log('entre al services get estudiantes', nombre);
+    if (nombre !== undefined) {
+      const filtroResultado = this.obtenerEstudiantes().filter(
+        (estudiante) => estudiante.nombre === nombre,
+      );
+      return filtroResultado;
+    } else {
+      return null;
+    }
+  }
 } // fin de la clase
